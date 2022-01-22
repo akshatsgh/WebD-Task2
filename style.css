@@ -1,0 +1,112 @@
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+}
+
+#card {
+    width: 70%;
+    background-color: white;
+    margin: 3em  auto 3em;
+    border-radius: 2%;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+#name h1{
+    letter-spacing: 0.7em;
+    padding-top: 2em;
+    font-style: italic;
+}
+
+.avatar {
+    width: 15%;
+    border-radius: 50%;
+    border: rgb(99, 245, 225) double 8px;
+}   
+
+#name #info {
+    background-color: black;
+    color: rgb(235, 235, 235);
+    border-radius: 10px;
+    border: black solid;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(235, 235, 235);
+}
+
+hr {
+    width: 80%;
+}
+
+#education h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px rgb(160, 156, 156);
+    font-family: 'Luxurious Roman', cursive;
+}
+
+#education ul {
+    display: inline-block;
+}
+
+#skills h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px rgb(160, 156, 156);
+    font-family: 'Luxurious Roman', cursive;
+}
+
+#skills table {
+    display: inline-block;
+    font-size: larger;
+    border: rgb(116, 113, 113) solid 2px;
+    border-collapse: collapse;
+}
+
+td,tr {
+    padding: 1em;
+    border: rgb(116, 113, 113) outset 2px;
+    border-collapse: collapse;
+}
+
+#contact h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px rgb(160, 156, 156);
+    font-family: 'Luxurious Roman', cursive;
+}
+
+#nem {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+input {
+    border-style: solid;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+    #card {
+        background-color: rgb(137, 164, 190);
+        font-size: smaller;
+    }
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    #card{
+        background-color: thistle;
+        font-size: x-small;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    #card{
+        background-color: rgba(60, 178, 199, 0.774);
+        font-size: xx-small;
+    }
+    
+}
